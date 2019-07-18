@@ -5,11 +5,11 @@ package SeleniumCode;
 // WebDriver Hierarchy
 //=========================
 //
-//                         SearchContext(I)
+//                         SearchContext(I) [findElement(), findElements()]
 //                               | extends
-//                           WebDriver(I)
+//                           WebDriver(I) [get(), Close()]
 //                               | implements
-// JavaScriptExecutor(I)--> RemoteWebDriver(C)<-- TakeScreenshot(I)
+// JavaScriptExecutor(I)<-- RemoteWebDriver(C) -->TakeScreenshot(I)
 //                               | extends
 //                          ChromeDriver(C)
 //                          FirefoxDriver(C)
