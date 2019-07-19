@@ -43,7 +43,7 @@ package SeleniumCode;
 
 //  BUT we can't Write like
 
-//  WebDriver driver = new WebDriver()
+//  WebDriver driver = new WebDriver();
 
 //  because WebDriver is an interface and we can't create object of interface*.
 
