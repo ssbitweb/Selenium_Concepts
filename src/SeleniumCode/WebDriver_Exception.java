@@ -103,7 +103,7 @@ public class WebDriver_Exception {
 	}
 	
 		
-// try block-- is the block where we put code that suppose to ocure exception.
+// try block-- is the block where we put code that suppose to occur exception.
 	
 // catch block -- is the block where we handle exception ..in above example we handled WebDriverException
 	

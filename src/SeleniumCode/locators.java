@@ -11,7 +11,20 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-public class basicForm {
+// Q. what are different types of locators there in selenium?
+
+// 1. id
+// 2. name
+// 3. className
+// 4. linkText
+// 5. partialLinkText
+// 6. xpath
+// 7. cssSelector
+// 8. tagName
+
+// use any one which is unique , having only 1 matching element.
+
+public class locators {
 
 	public static void main(String[] args) {
 		
@@ -97,6 +110,20 @@ public class basicForm {
 		System.out.println("Successfully tested Form");
 		
 		driver.quit();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 
