@@ -31,16 +31,13 @@ public class locators {
 		
 		
 		// by id
-		WebElement nameField = driver.findElement(By.id("g2599-name"));
-		nameField.sendKeys("sachin bhagat");
+		driver.findElement(By.id("g2599-name")).sendKeys("sachin bhagat");
 		
 		// by name
-		WebElement emailField = driver.findElement(By.name("g2599-email"));
-		emailField.sendKeys("myEmail@gmail.com");
+		driver.findElement(By.name("g2599-email")).sendKeys("myEmail@gmail.com");
 		
 		// by cssSelector
-		WebElement websiteField = driver.findElement(By.cssSelector("#g2599-website"));
-		websiteField.sendKeys("https://www.myWebsite.com");
+		driver.findElement(By.cssSelector("#g2599-website")).sendKeys("https://www.myWebsite.com");
 		
 		// by xpath
 		
