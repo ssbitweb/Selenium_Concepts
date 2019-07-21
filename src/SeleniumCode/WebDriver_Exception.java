@@ -1,4 +1,4 @@
-package SeleniumCode;
+package seleniumCode;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;

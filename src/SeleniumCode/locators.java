@@ -1,4 +1,4 @@
-package SeleniumCode;
+package seleniumCode;
 
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
@@ -20,7 +20,7 @@ import org.openqa.selenium.support.ui.Select;
 
 // use any one which is unique , having only 1 matching element.
 
-public class locators {
+public class Locators {
 
 	public static void main(String[] args) {
 		
@@ -51,17 +51,7 @@ public class locators {
 		driver.close();
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+				
 		
 		
 	}

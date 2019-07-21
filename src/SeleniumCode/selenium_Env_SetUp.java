@@ -1,4 +1,4 @@
-package SeleniumCode;
+package seleniumCode;
 
 
 // Q. What are diff Environment setUp for Selenium Automation?
@@ -14,7 +14,7 @@ package SeleniumCode;
 //    3.IE        --11
 // 5.eclipse     4.7 (oxygen)
 
-public class selenium_Env_SetUp {
+public class Selenium_Env_SetUp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

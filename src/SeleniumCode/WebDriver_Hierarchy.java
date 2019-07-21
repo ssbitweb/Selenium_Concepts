@@ -1,4 +1,4 @@
-package SeleniumCode;
+package seleniumCode;
 
 // Q. Why WebDriver driver = new ChromeDriver(); ?
 
