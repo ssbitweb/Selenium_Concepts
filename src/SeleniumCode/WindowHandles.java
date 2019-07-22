@@ -40,7 +40,7 @@ public class WindowHandles {
 		WebElement newWindowButton = driver.findElement(By.xpath("//button[@class='btn-style class1']"));
 		newWindowButton.click();
 		
-	    for(String wh : driver.getWindowHandles()) { // get all window
+		for(String wh : driver.getWindowHandles()) { // get all window
 			if( wh != pwh) {
 			    cwh = wh;
 			}
