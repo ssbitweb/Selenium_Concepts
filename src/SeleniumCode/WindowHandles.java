@@ -42,7 +42,7 @@ public class WindowHandles {
 		
 	    for(String wh : driver.getWindowHandles()) { // get all window
 			if( wh != pwh) {
-			cwh = wh;
+			    cwh = wh;
 			}
 		}
 		
