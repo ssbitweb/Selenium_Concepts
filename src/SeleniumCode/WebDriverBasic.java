@@ -1,13 +1,19 @@
 package seleniumCode;
 
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 // Q. What is WebDriver? 
-// Q. How do you launch url? 
 // Q. how to initialize driver?
+// Q. How to maximize window?
+// Q. How do you launch url? 
+// Q. how to get text of WebElement
 
-// WenDriver -- webdriver is an interface that interacts and control web browser
+// WenDriver -- WebDriver is an interface that interacts and control web browser
 //             which has different language bindings and driver.. like java, python
 
 public class WebDriverBasic {
@@ -17,8 +23,20 @@ public class WebDriverBasic {
 		// To initialize driver we need to create object/instance of any driver of WebDriver interface.
 		WebDriver driver = new ChromeDriver();
 		
+		// to maximize window
+		driver.manage().window().maximize(); 
+		
 		// get() Method is used to launch url
-		driver.get("https://www.google.com");
+		driver.get("http://www.globalsqa.com/samplepagetest/");
+		
+		// implicit wait -- applied on driver instance
+		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+		
+		// getText method - used to get Text of webElement
+		WebElement heading = driver.findElement(By.xpath("//h1[contains(text(),'Sample Page')]"));
+		
+		System.out.println(heading.getText()); // Sample Page Test
+		
 		
 		// To close
 		driver.close();
