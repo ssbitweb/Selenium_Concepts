@@ -41,8 +41,9 @@ public class WindowHandles {
 		newWindowButton.click();
 		
 	    for(String wh : driver.getWindowHandles()) { // get all window
-			if( wh != pwh)
+			if( wh != pwh) {
 				cwh = wh;
+			}
 		}
 		
 		String childWindow = driver.switchTo().window(cwh).getTitle();

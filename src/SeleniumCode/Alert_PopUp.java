@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 // switchTo() -- method is used to switch alert.
 // accept()   -- to click OK
-// dismiss() -- to click cancel
+// dismiss()  -- to click cancel
 // getText()  -- to get text message
 
 
