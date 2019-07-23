@@ -9,5 +9,6 @@
 	<classpathentry kind="lib" path="C:/Selenium_Automation/Projects/LetsKodeIt/lib/TestNG/jcommander-1.72.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium_Automation/Projects/LetsKodeIt/lib/TestNG/testng-6.7-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium_Automation/Projects/LetsKodeIt/lib/TestNG/testng-6.11.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_Automation/Projects/LetsKodeIt/lib/commons-io-2.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

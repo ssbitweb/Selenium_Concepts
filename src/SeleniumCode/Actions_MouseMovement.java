@@ -8,14 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-
-
-// Q . How to handle Frames in selenium?
-// Q . What are different ways of switching frames?
-
-
-
-public class Frames {
+public class Actions_MouseMovement {
 
 	public static void main(String[] args) {
 
@@ -25,17 +18,10 @@ public class Frames {
 		driver.get("http://www.globalsqa.com/demo-site/frames-and-windows/#iFrame");
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		
-		
-		// Frames===============
-		//driver.switchTo().frame(0); // by index
-		driver.switchTo().frame("globalSqa"); // by name
-		//driver.switchTo().frame("If1"); // by id
-		//driver.switchTo().frame("iframeElement"); // by element
-		
-		
-		
 		// Actions class
 		Actions act = new Actions(driver);
+		driver.switchTo().frame("globalSqa"); // by name
+		
 		WebElement trainingFilters = driver.findElement(By.xpath("//span[@id='current_filter']"));
 		act.moveToElement(trainingFilters).perform();
 		
@@ -44,12 +30,7 @@ public class Frames {
 		
 		
 		
-		
-		
-		
-		
-		
-		
+
 	}
 
 }
