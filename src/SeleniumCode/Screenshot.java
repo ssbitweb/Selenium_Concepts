@@ -27,7 +27,7 @@ public class Screenshot {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize(); // to maximize window
 		driver.manage().deleteAllCookies();  // how to delete cookies?
-		driver.get("https://tstats.000webhostapp.com/TrainBetweenForm.php");
+		driver.get("http://www.globalsqa.com/samplepagetest/");
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		
 		
