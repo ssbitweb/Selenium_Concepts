@@ -1,0 +1,11 @@
+<suite name ="testNgBasic">
+	<test name="TestNgBasicTitleTest" preserve-order = "true">
+		<classes>
+			<class name="testNG.TestNG_Basic">
+				<methods>
+					<include name ="homePageTileTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
