@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name ="testNgGrouping">
+  <test name="TestNgGroupOfGroup" preserve-order = "true">
+	<groups>
+	
+	    <define name = "all">
+	        <include name ="smokeTest"></include>
+	        <include name ="functionalTest"></include>
+	    </define>
+	    
+	    <define name = "onlySmoke">
+	        <include name ="smokeTest"></include>
+	    </define>	
+	
+	    <run>
+	        <include name ="all"></include>
+	    </run>
+	</groups>
+		<classes>
+			<class name="testNG.TestNG_GroupOfGroup" ></class>			
+		</classes>
+  </test>
+</suite>

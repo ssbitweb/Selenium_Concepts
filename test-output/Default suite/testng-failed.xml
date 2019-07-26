@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testNG.TestNG_Basic">
+      <class name="testNG.TestNG_MultiBrowser_ParallelTest">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="homePageTileTest"/>
         </methods>
-      </class> <!-- testNG.TestNG_Basic -->
+      </class> <!-- testNG.TestNG_MultiBrowser_ParallelTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

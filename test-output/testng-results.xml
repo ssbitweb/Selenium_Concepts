@@ -2,60 +2,38 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="152" started-at="2019-07-24T19:20:46Z" finished-at="2019-07-24T19:20:47Z">
+  <suite name="testNgBrowserTest" duration-ms="30833" started-at="2019-07-26T16:08:48Z" finished-at="2019-07-26T16:09:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="152" started-at="2019-07-24T19:20:46Z" finished-at="2019-07-24T19:20:47Z">
-      <class name="testNG.TestNG_Annotations">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testNG.TestNG_Annotations@e2abd]" name="beforeSuite" is-config="true" duration-ms="45" started-at="2019-07-25T00:50:46Z" finished-at="2019-07-25T00:50:46Z">
+    <test name="ChromeTest" duration-ms="18046" started-at="2019-07-26T16:08:48Z" finished-at="2019-07-26T16:09:06Z">
+      <class name="testNG.TestNG_MultiBrowser_ParallelTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testNG.TestNG_MultiBrowser_ParallelTest@1afa04c]" name="setUp" duration-ms="17931" started-at="2019-07-26T21:38:48Z" finished-at="2019-07-26T21:39:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNG.TestNG_Annotations@e2abd]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-07-25T00:50:46Z" finished-at="2019-07-25T00:50:46Z">
+        </test-method> <!-- setUp -->
+      </class> <!-- testNG.TestNG_MultiBrowser_ParallelTest -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="30832" started-at="2019-07-26T16:08:48Z" finished-at="2019-07-26T16:09:19Z">
+      <class name="testNG.TestNG_MultiBrowser_ParallelTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testNG.TestNG_MultiBrowser_ParallelTest@1efea79]" name="setUp" duration-ms="30723" started-at="2019-07-26T21:38:48Z" finished-at="2019-07-26T21:39:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testNG.TestNG_Annotations@e2abd]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-07-25T00:50:46Z" finished-at="2019-07-25T00:50:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.TestNG_Annotations@e2abd]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-07-25T00:50:47Z" finished-at="2019-07-25T00:50:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="method1()[pri:0, instance:testNG.TestNG_Annotations@e2abd]" name="method1" duration-ms="34" started-at="2019-07-25T00:50:47Z" finished-at="2019-07-25T00:50:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.TestNG_Annotations@e2abd]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-07-25T00:50:47Z" finished-at="2019-07-25T00:50:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.TestNG_Annotations@e2abd]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-07-25T00:50:47Z" finished-at="2019-07-25T00:50:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="method2()[pri:0, instance:testNG.TestNG_Annotations@e2abd]" name="method2" duration-ms="11" started-at="2019-07-25T00:50:47Z" finished-at="2019-07-25T00:50:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.TestNG_Annotations@e2abd]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-07-25T00:50:47Z" finished-at="2019-07-25T00:50:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:testNG.TestNG_Annotations@e2abd]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-07-25T00:50:47Z" finished-at="2019-07-25T00:50:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNG.TestNG_Annotations@e2abd]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-07-25T00:50:47Z" finished-at="2019-07-25T00:50:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testNG.TestNG_Annotations@e2abd]" name="afterSuite" is-config="true" duration-ms="1" started-at="2019-07-25T00:50:47Z" finished-at="2019-07-25T00:50:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- testNG.TestNG_Annotations -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setUp -->
+      </class> <!-- testNG.TestNG_MultiBrowser_ParallelTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- testNgBrowserTest -->
 </testng-results>
