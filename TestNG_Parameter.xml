@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="testNgParameterTest">
+
+    <test name="parameterTest" preserve-order = "true">
+	<parameter name ="browser" value ="chrome" />
+	<parameter name ="name" value ="Sachin Bhagat" />
+	<parameter name ="email" value ="sachinbht37@gmail.com" />
+	<parameter name ="website" value ="https://www.mywebsite.com" />
+	<parameter name ="comments" value ="Hi sachin..! This is my Comments" />
+		<classes>
+			<class name="testNG.TestNG_Parameter"></class>
+		</classes>
+    </test>
+		
+</suite>
