@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="testNgParameterTest" duration-ms="110605" started-at="2019-07-26T19:13:04Z" finished-at="2019-07-26T19:14:55Z">
+  <suite name="testNgDataProvidersTest" duration-ms="131883" started-at="2019-07-28T08:59:15Z" finished-at="2019-07-28T09:01:27Z">
     <groups>
     </groups>
-    <test name="parameterTest" duration-ms="110605" started-at="2019-07-26T19:13:04Z" finished-at="2019-07-26T19:14:55Z">
-      <class name="testNG.TestNG_Parameter">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testNG.TestNG_Parameter@eff760]" name="setUp" is-config="true" duration-ms="72829" started-at="2019-07-27T00:43:04Z" finished-at="2019-07-27T00:44:17Z">
+    <test name="dataProviders" duration-ms="131883" started-at="2019-07-28T08:59:15Z" finished-at="2019-07-28T09:01:27Z">
+      <class name="testNG.TestNG_DataProviders">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testNG.TestNG_DataProviders@c7a4e4]" name="setUp" is-config="true" duration-ms="40501" started-at="2019-07-28T14:29:15Z" finished-at="2019-07-28T14:29:56Z">
           <params>
             <param index="0">
               <value>
@@ -18,33 +18,70 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="trainSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.TestNG_Parameter@eff760]" name="trainSearch" duration-ms="37562" started-at="2019-07-27T00:44:17Z" finished-at="2019-07-27T00:44:55Z">
+        <test-method status="PASS" signature="registerForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.TestNG_DataProviders@c7a4e4]" name="registerForm" duration-ms="25381" started-at="2019-07-28T14:29:56Z" data-provider="fieldInputs" finished-at="2019-07-28T14:30:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Sachin Bhagat]]>
+                <![CDATA[sachin bhagat]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[sachinbht37@gmail.com]]>
+                <![CDATA[sachinbhagat0307@gmail.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[https://www.mywebsite.com]]>
+                <![CDATA[https://www.website1.com]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Hi sachin..! This is my Comments]]>
+                <![CDATA[Comments one]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- trainSearch -->
-      </class> <!-- testNG.TestNG_Parameter -->
-    </test> <!-- parameterTest -->
-  </suite> <!-- testNgParameterTest -->
+        </test-method> <!-- registerForm -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testNG.TestNG_DataProviders@c7a4e4]" name="setUp" is-config="true" duration-ms="37994" started-at="2019-07-28T14:30:21Z" finished-at="2019-07-28T14:30:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.TestNG_DataProviders@c7a4e4]" name="registerForm" duration-ms="27859" started-at="2019-07-28T14:30:59Z" data-provider="fieldInputs" finished-at="2019-07-28T14:31:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ajay bhagat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ajaybhagat@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.website2.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[comments2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerForm -->
+      </class> <!-- testNG.TestNG_DataProviders -->
+    </test> <!-- dataProviders -->
+  </suite> <!-- testNgDataProvidersTest -->
 </testng-results>
