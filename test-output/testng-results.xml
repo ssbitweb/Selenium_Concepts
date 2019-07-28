@@ -1,87 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="testNgDataProvidersTest" duration-ms="131883" started-at="2019-07-28T08:59:15Z" finished-at="2019-07-28T09:01:27Z">
+  <suite name="Default suite" duration-ms="319" started-at="2019-07-28T12:21:05Z" finished-at="2019-07-28T12:21:05Z">
     <groups>
     </groups>
-    <test name="dataProviders" duration-ms="131883" started-at="2019-07-28T08:59:15Z" finished-at="2019-07-28T09:01:27Z">
-      <class name="testNG.TestNG_DataProviders">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testNG.TestNG_DataProviders@c7a4e4]" name="setUp" is-config="true" duration-ms="40501" started-at="2019-07-28T14:29:15Z" finished-at="2019-07-28T14:29:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="319" started-at="2019-07-28T12:21:05Z" finished-at="2019-07-28T12:21:05Z">
+      <class name="testNG.F_DependsOnMethod">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testNG.F_DependsOnMethod@19f379]" name="beforeClass" is-config="true" duration-ms="156" started-at="2019-07-28T17:51:05Z" finished-at="2019-07-28T17:51:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.TestNG_DataProviders@c7a4e4]" name="registerForm" duration-ms="25381" started-at="2019-07-28T14:29:56Z" data-provider="fieldInputs" finished-at="2019-07-28T14:30:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sachin bhagat]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sachinbhagat0307@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[https://www.website1.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Comments one]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:testNG.F_DependsOnMethod@19f379]" name="loginTest" duration-ms="24" started-at="2019-07-28T17:51:05Z" finished-at="2019-07-28T17:51:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerForm -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testNG.TestNG_DataProviders@c7a4e4]" name="setUp" is-config="true" duration-ms="37994" started-at="2019-07-28T14:30:21Z" finished-at="2019-07-28T14:30:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="composeMail()[pri:0, instance:testNG.F_DependsOnMethod@19f379]" name="composeMail" duration-ms="7" started-at="2019-07-28T17:51:05Z" depends-on-methods="testNG.F_DependsOnMethod.loginTest" finished-at="2019-07-28T17:51:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.TestNG_DataProviders@c7a4e4]" name="registerForm" duration-ms="27859" started-at="2019-07-28T14:30:59Z" data-provider="fieldInputs" finished-at="2019-07-28T14:31:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ajay bhagat]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ajaybhagat@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[https://www.website2.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[comments2]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- composeMail -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testNG.F_DependsOnMethod@19f379]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-07-28T17:51:05Z" finished-at="2019-07-28T17:51:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerForm -->
-      </class> <!-- testNG.TestNG_DataProviders -->
-    </test> <!-- dataProviders -->
-  </suite> <!-- testNgDataProvidersTest -->
+        </test-method> <!-- afterClass -->
+      </class> <!-- testNG.F_DependsOnMethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

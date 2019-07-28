@@ -6,6 +6,9 @@ import org.testng.annotations.Test;
 // Q . How to Perform Depends On method?
 // -- add parameter dependsOnMethod = { "methodName" }
 
+// Q. How to skeep test method?
+// -- just Test method parameter (enabled = false)
+
 
 
 public class F_DependsOnMethod {	
@@ -23,6 +26,11 @@ public class F_DependsOnMethod {
 	@Test(dependsOnMethods = {"loginTest"})
 	public void composeMail() {
 		System.out.println("Mail sent");
+	}
+	
+	@Test(enabled = false) // skeeped
+	public void verify() {
+		System.out.println("verified");
 	}
 	
 	@AfterClass(alwaysRun = true)
