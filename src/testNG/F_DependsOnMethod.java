@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 
 
-public class TestNG_DependsOnMethod {	
+public class F_DependsOnMethod {	
 	
 	@BeforeClass(alwaysRun = true)
 	public void beforeClass() {

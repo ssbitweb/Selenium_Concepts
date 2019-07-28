@@ -30,7 +30,7 @@ import org.testng.annotations.Test;
 </suite>
 
 */
-public class TestNG_Parameter {
+public class H_Parameter {
 	
 	WebDriver driver;
 	String baseUrl;

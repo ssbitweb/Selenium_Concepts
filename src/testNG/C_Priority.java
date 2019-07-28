@@ -17,7 +17,7 @@ import org.testng.annotations.Test;
 // -- priority word is case sensitive.
 // 
 
-public class TestNG_Priority {
+public class C_Priority {
 
 	@Test()
 	public void c_method(){

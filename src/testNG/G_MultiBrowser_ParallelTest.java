@@ -38,7 +38,7 @@ xml
 
 
 
-public class TestNG_MultiBrowser_ParallelTest {
+public class G_MultiBrowser_ParallelTest {
 	
 	WebDriver driver;
 	String baseUrl;

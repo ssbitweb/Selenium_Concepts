@@ -47,7 +47,7 @@ TestNG Annotations and Explanation
 ==============================
 */
 
-public class TestNG_Annotations {
+public class B_Annotations {
 	
 	 @Test
 	  public void method1() {

@@ -37,7 +37,7 @@ driver.quit
 
 
 
-public class TestNG_Grouping {
+public class D_Grouping {
 	
 	@BeforeClass(alwaysRun = true)
 	public void beforeClass() {

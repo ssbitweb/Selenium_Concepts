@@ -33,7 +33,7 @@ XML=============
 </suite>
 
 */
-public class TestNG_DataProviders {
+public class I_DataProviders {
 	
 	WebDriver driver;
 	String baseUrl;

@@ -56,7 +56,7 @@ TestNG xml Structure
 // NOTE -- No Main method in TestNG class because itself Framework.
 
 */
-public class TestNG_Basic {
+public class A_Basic {
 	
 	WebDriver driver;
 	

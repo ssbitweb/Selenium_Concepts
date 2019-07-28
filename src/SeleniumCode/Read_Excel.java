@@ -20,11 +20,11 @@ public class Read_Excel {
 	
 	public static void main(String[] args) {
 		
-		//XSSFWorkbook wb;
+		XSSFWorkbook wb;
 		
 		try {
 			FileInputStream fis = new FileInputStream("C:\\Selenium_Automation\\Projects\\Selenium_Concepts\\src\\testData\\userData.xlsx");
-			XSSFWorkbook wb = new XSSFWorkbook(fis);
+			wb = new XSSFWorkbook(fis);
 			XSSFSheet sh = wb.getSheet("Sheet1");
 			XSSFCell cell = sh.getRow(2).getCell(0); // read data
 			

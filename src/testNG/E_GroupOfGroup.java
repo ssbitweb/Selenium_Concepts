@@ -41,7 +41,7 @@ Mail sent
 driver.quit
 
 */
-public class TestNG_GroupOfGroup {
+public class E_GroupOfGroup {
 	
 	@BeforeClass(alwaysRun = true)
 	public void beforeClass() {
