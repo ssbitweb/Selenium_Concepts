@@ -30,6 +30,8 @@ public class B_WebDriverBasic {
 		// get() Method is used to launch url
 		driver.get("http://www.globalsqa.com/samplepagetest/");
 		
+		driver.manage().deleteAllCookies();  // how to delete cookies?
+		
 		// implicit wait -- applied on driver instance
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		
