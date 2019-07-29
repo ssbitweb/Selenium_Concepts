@@ -27,10 +27,10 @@ public class B_WebDriverBasic {
 		// to maximize window
 		driver.manage().window().maximize(); 
 		
-		// get() Method is used to launch url
-		driver.get("http://www.globalsqa.com/samplepagetest/");
-		
 		driver.manage().deleteAllCookies();  // how to delete cookies?
+		
+		// get() Method is used to launch url
+		driver.get("http://www.globalsqa.com/samplepagetest/");	
 		
 		// implicit wait -- applied on driver instance
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
