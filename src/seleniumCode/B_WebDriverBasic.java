@@ -43,6 +43,7 @@ public class B_WebDriverBasic {
 		
 		// -- close closes current window instance.
 		driver.close(); 
+		
 		// -- quit closes all the instances of window that is open.
 		driver.quit();
 		
