@@ -14,7 +14,7 @@ package seleniumCode;
 //    3.IE        --11
 // 5.eclipse     4.7 (oxygen)
 
-public class A_Selenium_Env {
+public class A1_Selenium_Env {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
