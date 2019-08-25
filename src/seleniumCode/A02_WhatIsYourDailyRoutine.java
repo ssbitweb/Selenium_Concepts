@@ -13,7 +13,7 @@ package seleniumCode;
 // --reviewing bug fixes
 // --communicating with developers
 
-public class A_WhatIsYourDailyRoutine {
+public class A02_WhatIsYourDailyRoutine {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -18,7 +18,7 @@ package seleniumCode;
 // 10- Analyzing test Result and reporting Defect
 // 11- Tracking defect and select test cases for re-and regression testing.
 
-public class A01_RolesAndResponsibility {
+public class A03_RolesAndResponsibility {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
