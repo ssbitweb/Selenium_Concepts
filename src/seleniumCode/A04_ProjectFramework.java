@@ -56,11 +56,19 @@ package seleniumCode;
 
 //  1- Pages Layer 
 //   --all web pages relates class comes under pages package in src/main/java, 
+//   --loginPage
+//   --homePage
+//   --registrationPage
+//   --contactsPage
 
 //  2- Test layer
 //   --all tests related class comes under tests package in src/test/java.
+//   --loginPageTest
+//   --homePageTest
+//   --registrationPageTest
+//   --contactsPageTest
 
-//  we also created config, testBase, Util, and testData package in src/main/java
+//  we also created config, testBase, Util, and testData packages in src/main/java
 
 //  1.1- config
 //    config package holds config.properties file which contain common properties also called as environment variables such as
